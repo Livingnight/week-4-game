@@ -1,0 +1,24 @@
+#crystal-1{
+    background: #00f url("../images/blue_crystal.jpg");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}
+#crystal-2{
+    background: #0c0 url("../images/green_crystal.jpg");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}
+#crystal-3{
+    background: lightpink url("../images/pink_crystal.jpg");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}
+#crystal-4{
+    background: purple url("../images/purple_crystal.jpg");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}

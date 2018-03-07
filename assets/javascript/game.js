@@ -2,25 +2,29 @@ var game = {
     wins: 0,
     losses: 0,
     numbersPicked: false,
-    randWinNum: Math.floor((Math.random() * 102) + 19),
-    crys1: Math.floor((Math.random() * 12) + 1),
-    crys2: Math.floor((Math.random() * 12) + 1),
-    crys3: Math.floor((Math.random() * 12) + 1),
-    crys4: Math.floor((Math.random() * 12) + 1),
+    picturemaker: ['assets/images/blue_crystal.jpg', '../images/green_crystal.jpg', '../images/pink_crystal.jpg','../images/purple_crystal.jpg' ],
     crysNumTracker: [],
     winNumTracker: [],
     gameStart: function () {
-        if (game.numbersPicked === false) {
-            $(".randomNumber").text(game.randWinNum);
+        if (this.numbersPicked === false) {
+            this.winNumTracker.push(Math.floor(Math.random()*(121-19)+19));
+            console.log("this is the winning random number: " + this.winNumTracker);
+            $(".randomNumber").text(this.winNumTracker);
+            for(i=0;i<this.picturemaker.length;i++){
+                $('#box').append(
+                    $('<img>')
+                        .attr('src', 'picturemaker[i]')
+                        .addClass("crystal")
+                );
+            }
             $('.crystal').on('click', function () {
-                game.winNumTracker.push(game.randWinNum);
-
-                console.log("this is the win num: " + game.randWinNum);
+                // this.winNumTracker.push(this.randWinNum);
+                // if($('#crystal-1').)
+                console.log("this is the win num: " + this.randWinNum);
 
             })
         }
     }
 }
+console.log(game.picturemaker);
 game.gameStart();
-console.log(game.randWinNum);
-console.log(game.randCrysNum);

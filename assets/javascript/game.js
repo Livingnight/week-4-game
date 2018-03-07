@@ -11,22 +11,23 @@ var game = {
             console.log("this is the winning random number: " + this.winNumTracker);
             $(".randomNumber").text(this.winNumTracker);
             for(var i=0;i<this.pictureMaker.length;i++){
+                var randNum = Math.floor(Math.random()*(13-1)+1);
                 $('#box').append(
                     $('<img>')
                         // .css("margin-right: 10px")
+                        // var randNum = Math.floor(Math.random()*(13-1)+1)
                         .attr('src', this.pictureMaker[i])
-                        .val("Math.floor(Math.random()*(121-19)+19)")
+                        .attr('value', randNum)
+                        // .val(this.pictureMaker, randNum)
                         // console.log($('<img>').val());
                         .addClass("crystal")
 
 
                 );
-                console.log($('<img>').val());
+                console.log("this is the value of each img element: "+ $("<img>").val());
             }
+            console.log($("<img>").val())
             $('.crystal').on('click', function () {
-                // this.winNumTracker.push(this.randWinNum);
-                // if($('#crystal-1').)
-                // console.log("this is the win num: " + this.randWinNum);
 
             })
         }

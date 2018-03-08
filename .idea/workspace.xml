@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8ec695-0ea4-47c6-93aa-bc0e867f5831" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/assets/javascript/game.js" afterPath="$PROJECT_DIR$/assets/javascript/game.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-calculator.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery-calculator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../GTATL201802FSF1-Class-Repository-FSF/01-class-content/04-jquery/01-Activities/20-jQueryCalculator/Unsolved/jquery-calculator.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-595">
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-534">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -188,12 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520358501414</updated>
       <workItem from="1520358502883" duration="38098000" />
-      <workItem from="1520460430727" duration="2170000" />
+      <workItem from="1520460430727" duration="4572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40268000" />
+    <option name="totallyTimeSpent" value="42670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -310,18 +309,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../GTATL201802FSF1-Class-Repository-FSF/01-class-content/04-jquery/01-Activities/20-jQueryCalculator/Unsolved/jquery-calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-595">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
           <folding />
         </state>
       </provider>

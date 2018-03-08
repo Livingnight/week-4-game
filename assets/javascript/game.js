@@ -32,24 +32,27 @@ var game = {
                 game.crysNum += parseInt(scoreValue);
                 // game.score = game.score + scoreValue;
                 $('.totalScore').text(game.crysNum);
-
                 console.log("this is the crystal number total: " + game.crysNum);
                 console.log("this is the winning number: "+game.winNum);
                 if(game.crysNum > game.winNum){
                     game.losses++;
-                    $(".losses").text(game.losses);
+                    $(".losses").text("Losses: "+game.losses);
                     game.crysNum = 0;
                     game.winNum = 0;
+                    $("#box").empty();
                     game.numbersPicked = false;
-
+                    game.gameStart();
                 }else if(game.crysNum === parseInt(game.winNum)){
                     // console.log()
                     game.wins++;
-                    $('.wins').text(game.wins);
+                    $('.wins').text("Wins: "+game.wins);
+                    game.crysNum = 0;
+                    game.winNum = 0;
+                    $("#box").empty();
                     game.numbersPicked = false;
-
+                    game.gameStart();
                 }
-
+                // this.numbersPicked = false;
             });
 
 

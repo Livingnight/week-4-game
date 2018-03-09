@@ -1,29 +1,59 @@
-/*#crystal-1{*/
-    /*background: #00f url("../images/blue_crystal.jpg");*/
-    /*background-size: 100px 100px;*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-/*}*/
-/*#crystal-2{*/
-    /*background: #0c0 url("../images/green_crystal.jpg");*/
-    /*background-size: 100px 100px;*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-/*}*/
-/*#crystal-3{*/
-    /*background: lightpink url("../images/pink_crystal.jpg");*/
-    /*background-size: 100px 100px;*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-/*}*/
-/*#crystal-4{*/
-    /*background: purple url("../images/purple_crystal.jpg");*/
-    /*background-size: 100px 100px;*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-/*}*/
+
 .crystal{
     height: 150px;
     width:150px;
     margin-right: 10px;
+}
+body{
+    background: url("../images/ice-2504549_960_720.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header h1{
+    font-size: 32px;
+    color: deepskyblue;
+    text-align: center;
+    background: darkblue;
+    /*width: 300px;*/
+    /*margin-left: auto;*/
+}
+.rules{
+    border: 2px solid darkblue;
+    margin-bottom: 10px;
+}
+.rules p{
+    font-size: 26px;
+    color: #ffffff;
+}
+img{
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+}
+img:hover{
+    opacity: .75;
+}
+.randomNumber{
+    color: deepskyblue;
+    text-align: center;
+    font-size: 24px;
+    background: darkblue;
+    margin: 0 10px 10px 10px;
+    height: 90px;
+    padding-top: 30px;
+}
+.winsLosses{
+    color: deepskyblue;
+    background: darkblue;
+    text-align: center;
+    font-size: 24px;
+}
+.guess{
+    color: deepskyblue;
+    text-align: center;
+    font-size: 24px;
+    background: darkblue;
+    width: 300px;
+    margin-left: 178px;
 }

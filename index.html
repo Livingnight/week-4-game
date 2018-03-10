@@ -18,37 +18,55 @@
     <title>Document</title>
 </head>
 <body>
-    <div class = "container header">
-        <h1 class = "col-lg-4 col-lg-offset-4">Crystal Collector!</h1>
+    <div class = "row">
+        <div class = "container col-lg-12 header">
+            <div class = "container">
+                <h1>Crystal Collector!</h1>
+            </div>
+        </div>
     </div>
-        <div class = "row">
-            <div class = "container-fluid col-lg-6 rules">
-                <p>You will be given a number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amounts of points
-                    to your total score.</p>
-                <p>You win the game by matching your total score to the random number. You lose the game if your total score
-                    goes above the random number</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    <div class = "row">
+        <div class = "container rules">
+            <p>You will be given a number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amounts of points
+                to your total score.</p>
+            <p>You win the game by matching your total score to the random number. You lose the game if your total score
+                goes above the random number</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the value of each crystal.</p>
             </div>
         </div>
 
     <div class = "row">
-        <div class = "container-fluid col-lg-2 randomNumber"></div>
+        <div class = "container">
+            <div class = "container col-lg-2 randomNumber"></div>
 
-        <div class = "container-fluid col-lg-2 winsLosses">
-            <p class = "wins"></p>
-            <p class = "losses"></p>
+            <div class = "container col-lg-2 col-lg-offset-1 winsLosses">
+                <p class = "wins"></p>
+                <p class = "losses"></p>
+            </div>
         </div>
+
+
+    </div>
+    <div class = "row">
+        <div class = "container">
+                <div id = "box"></div>
+            </div>
+
 
     </div>
 
-    <div class = "container-fluid" id = "box"></div>
+    <div class = "row">
+        <div class = "guess container-fluid col-lg-12 col-lg-offset-3">
+            <div class = "row">
+                <div class = "container-fluid col-lg-12">Your total score is:</div>
 
-    <div class = "guess row">
-        <div class = "container-fluid">Your total score is:</div>
+                <div class = "totalScore container-fluid col-lg-12"></div>
+            </div>
 
-        <div class = "totalScore container-fluid"></div>
+        </div>
+
     </div>
 
 

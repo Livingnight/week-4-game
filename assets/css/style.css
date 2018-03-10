@@ -3,6 +3,7 @@
     height: 150px;
     width:150px;
     margin-right: 10px;
+    /*margin-left: 0;*/
 }
 body{
     background: url("../images/ice-2504549_960_720.jpg") no-repeat center center fixed;
@@ -11,13 +12,26 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+.pictures{
+    display: inline;
+    text-align: center;
+}
+.numbers{
+    display: inline;
+    text-align: center;
+}
 .header h1{
+    /*width: 400px;*/
     font-size: 32px;
     color: deepskyblue;
     text-align: center;
     background: darkblue;
+    /*float: left;*/
     /*width: 300px;*/
     /*margin-left: auto;*/
+}
+.header .container{
+    width: 400px;
 }
 .rules{
     border: 2px solid darkblue;
@@ -55,5 +69,5 @@ img:hover{
     font-size: 24px;
     background: darkblue;
     width: 300px;
-    margin-left: 178px;
+    /*margin-left: 178px;*/
 }

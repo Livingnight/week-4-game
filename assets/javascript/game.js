@@ -14,7 +14,7 @@ var game = {
             console.log("this is the winning random number: " + this.winNum);
             $(".randomNumber").text(this.winNum);
             $(".totalScore").text(this.crysNum);
-            $(".wins").text("Wins: "+this.wins);
+            $(".wins").html("<p>Wins: "+this.wins+ "</p>");
             $(".losses").text("Losses: "+this.losses);
             for(var i=0;i<this.pictureMaker.length;i++){
                 var randNum = Math.floor(Math.random()*(13-1)+1);
@@ -54,12 +54,6 @@ var game = {
                 }
                 // this.numbersPicked = false;
             });
-
-
-
-
     }
 };
-
-console.log(game.pictureMaker);
 game.gameStart();
